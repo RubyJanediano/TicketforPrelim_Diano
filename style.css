@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+header {
+    background-color: #c5b9b9;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+h1, h2, h3 {
+    color: #333;
+}
+p {
+    color: #666;
+}
+.section {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+}
+.section h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.section.education {
+    background-color: #ffe6e6;
+}
+.section.experience {
+    background-color: #e6f9ff;
+}
+.section.skills {
+    background-color: #e6ffe6;
+}
+
+
+.profile-picture {
+    align-items: center;
+    width: 150px; 
+    height: 150px; 
+    margin-bottom: 20px; 
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue color, you can change this */
+    color: #fff; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
